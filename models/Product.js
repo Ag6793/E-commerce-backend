@@ -23,7 +23,7 @@ Product.init(
       type: DataTypes.DECIMAL,
       allowNull: true
     },
-    Stock: INT,
+    Stock: INTEGER,
     category_id: {
       type: DataTypes.INTEGER,
       references: {
