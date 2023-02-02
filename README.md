@@ -10,6 +10,7 @@ This application will be refactored from a working Express.js API to use Sequeli
 * Javascript
 * Express
 * MySQL
+* Sequelize
 
 ## Installation
 * Clone the project repository. 
