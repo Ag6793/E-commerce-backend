@@ -15,18 +15,22 @@ Product.init(
       primaryKey: true,
       autoIncrement: true
     },
-    product_name: String,
+    product_name: {
+      type: DataTypes.String,
+      allowNull: false
+    },
     price:{
       type: DataTypes.DECIMAL,
       allowNull: true
     },
     Stock: INT,
-    category_id: INT,
-    category: {
-      id:INT,
-      category_name: STRING
+    category_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'category',
+        key: 'id',
+      }
     }
-    // define columns
   },
   {
     sequelize,
