@@ -17,6 +17,7 @@ This application will be refactored from a working Express.js API to use Sequeli
 
 ## Future Development
 * To completely refactor the API to use MySQL
+* Debug application to use insomnia
 * To attach a walkthrough video of the application
 
 ## Credits
