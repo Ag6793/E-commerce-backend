@@ -16,8 +16,6 @@ Tag.init(
     type: DataTypes.String,
     allowNull: false
   },
-  
-    // define columns
   },
   {
     sequelize,
