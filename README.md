@@ -3,7 +3,11 @@
 ![GitHub license](https://img.shields.io/badge/license-MIT-red.svg)
 
 ## Description
-This application will be refactored from a working Express.js API to use Sequelize to interact with a MySQL database. 
+This application will be refactored from a working Express.js API to use Sequelize to interact with a MySQL database.
+
+Click [here](https://drive.google.com/file/d/1INRFElgIbdt4CCEgxRToywOqBqZbfmNg/view) to view the application's behavior.
+
+![Screenshot of application in insomnia](Screenshot_of_application.jpg)
 
 
 ## Technologies
@@ -17,8 +21,8 @@ This application will be refactored from a working Express.js API to use Sequeli
 * Run npm start to start the server
 
 ## Future Development
-* Debug application to use insomnia
-* To attach a walkthrough video of the application
+* Debug application to display products and tags
+
 
 ## Credits
 - [ALEXANDRIA GUERRERO](https://github.com/Ag6793)
